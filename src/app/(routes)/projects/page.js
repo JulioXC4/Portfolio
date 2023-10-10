@@ -1,14 +1,12 @@
 import React from 'react'
 import CardList from './components/CardList'
-import sampleProjects from './components/data'
+
+import projectsData from '@/db/projects/projects.data'
 
 function Project() {
   return (
     <div>
-        <h1>
-            Lista de proyectos: 
-        </h1>
-        <CardList projects={sampleProjects}/>
+        <CardList projects={projectsData}/>
     </div>
   )
 }
