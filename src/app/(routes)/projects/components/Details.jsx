@@ -7,7 +7,7 @@ function Details({ project }) {
           <img
             src={project.imageUrl}
             alt={project.title}
-            className="w-full h-40 object-cover mt-4"
+            className="object-cover mt-4"
           />
           <p className="text-gray-600 mt-4">{project.description}</p>
           <p className="mt-4">
